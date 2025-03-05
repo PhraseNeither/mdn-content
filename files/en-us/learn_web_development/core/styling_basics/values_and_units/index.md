@@ -269,7 +269,7 @@ html {
 
 `lh` and `rlh` are relative length units similar to `em` and `rem`. The difference between `lh` and `rlh` is that the first one is relative to the line height of the element itself, while the second one is relative to the line height of the root element, usually `<html>`.
 
-Using these units, we can precisely align box decoration to the text. In this example, we use `lh` unit to create notepad-like lines using [`repeating-linear-gradient()`](/en-US/docs/Web/CSS/gradient/repeating-linear-gradient). It doesn't matter what's the line height of the text, the lines will always start in the right place.
+Using these units, we can precisely align box decoration to the text. In this example, we use the `lh` unit to create notepad-like lines using [`repeating-linear-gradient()`](/en-US/docs/Web/CSS/gradient/repeating-linear-gradient). It doesn't matter what the line height of the text is, the lines will always start in the right place.
 
 ```css hidden
 body {
